@@ -1,2 +1,2 @@
 # quoteMe
-web tool for collecting quotes and othe text references from around the web
+a small web tool for collecting quotes and other text references from around the web
