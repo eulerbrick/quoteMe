@@ -35,10 +35,10 @@
             var date = document.createElement('div');
             var language = document.createElement('div');
 
-            quote.innerText = e.quote;
-            source.innerText = e.src;
-            date.innerText = e.date;
-            language.innerText = e.lang;
+            quote.innerText = e['quote'];
+            source.innerText = e['src'];
+            date.innerText = e['date'];
+            language.innerText = e['lang'];
 
             item.append(quote, source, date, language);
             document.body.appendChild(item);
